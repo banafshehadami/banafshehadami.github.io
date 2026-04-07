@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Banafsheh Adami academic profile website" />
+  <title>Banafsheh Adami | Academic Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#top">Banafsheh Adami</a>
+      <div class="nav-links">
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container academic-hero">
+      <div class="hero-text">
+        <h1>Banafsheh Adami</h1>
+        <p class="subtitle">
+          Computer Vision | Machine Learning | Biometrics
+        </p>
+        <p>
+          I am a PhD student in Computer Science at the University of South Florida.
+          My research focuses on machine learning, deep learning, and robust biometric AI systems.
+        </p>
+        <p>
+          Current interests include contactless fingerprint anti-spoofing, heart-rate estimation via rPPG, and real-world trustworthy AI.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="https://github.com/banafshehadami" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="https://scholar.google.com/citations?user=qcURpaYAAAAJ&hl=id" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a class="btn" href="https://orcid.org/0009-0004-0193-577X" target="_blank" rel="noreferrer">ORCID</a>
+        </div>
+      </div>
+      <aside class="profile-card card" id="contact">
+        <img
+          class="profile-photo"
+          src="https://avatars.githubusercontent.com/banafshehadami?v=4"
+          alt="Banafsheh Adami profile photo"
+        />
+        <ul class="contact-list">
+          <li>University of South Florida</li>
+          <li>Tampa, Florida, USA</li>
+          <li><a href="https://github.com/banafshehadami" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://scholar.google.com/citations?user=qcURpaYAAAAJ&hl=id" target="_blank" rel="noreferrer">Google Scholar</a></li>
+          <li><a href="https://orcid.org/0009-0004-0193-577X" target="_blank" rel="noreferrer">ORCID</a></li>
+          <li><a href="https://www.linkedin.com/in/banafsheh-adami-5830b61a9/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="container section" id="news">
+      <h2>News</h2>
+      <ul class="news-list card">
+        <li><strong>2026</strong> - Launched personal academic homepage on GitHub Pages.</li>
+        <li><strong>2025</strong> - Continued work on contactless fingerprint biometrics and anti-spoofing.</li>
+        <li><strong>2024</strong> - Expanded research projects in machine learning and biometric AI.</li>
+      </ul>
+    </section>
+
+    <section class="container section" id="publications">
+      <h2>Selected Works</h2>
+      <div class="pub-list">
+        <article class="card pub-item">
+          <h3>Contactless Fingerprint Anti-Spoofing (Unsupervised Deep Learning)</h3>
+          <p>
+            An unsupervised approach trained on genuine samples only, designed to identify presentation attacks in contactless fingerprint systems.
+          </p>
+          <a href="https://github.com/banafshehadami/Contactless-Fingerprint-Anti-Spoofing-An-Unsupervised-Deep-Learning-Approach" target="_blank" rel="noreferrer">Project link</a>
+        </article>
+        <article class="card pub-item">
+          <h3>Heart-Rate Estimation from Contactless Fingerprints</h3>
+          <p>
+            Uses rPPG signal extraction from contactless fingerprint videos for physiological estimation and authenticity support.
+          </p>
+          <a href="https://github.com/banafshehadami/Heart-Rate-Estimation-from-contactless-fingerprint" target="_blank" rel="noreferrer">Project link</a>
+        </article>
+        <article class="card pub-item">
+          <h3>AI Research Assistant</h3>
+          <p>
+            A practical toolkit and interface experiments for streamlining AI-assisted research workflows.
+          </p>
+          <a href="https://github.com/banafshehadami/AI-Research-Assistant" target="_blank" rel="noreferrer">Project link</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Banafsheh Adami - Academic Homepage</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
