@@ -3,7 +3,7 @@
   --bg-card: #ffffff;
   --text: #1d2330;
   --muted: #5a6275;
-  --primary: #2d5bff;
+  --primary: #6f42c1;
   --border: #d8dff0;
   --shadow: 0 8px 22px rgba(19, 27, 54, 0.08);
 }
@@ -96,10 +96,12 @@ h1 {
   font-size: clamp(1.8rem, 3.5vw, 2.5rem);
   line-height: 1.2;
   margin: 0 0 0.25rem;
+  color: var(--primary);
 }
 
 h2 {
   margin: 0 0 0.8rem;
+  color: var(--primary);
 }
 
 .subtitle {
@@ -211,6 +213,7 @@ h2 {
 .pub-item h3 {
   font-size: 1.02rem;
   margin: 0 0 0.35rem;
+  color: var(--primary);
 }
 
 .pub-item p {
@@ -239,7 +242,7 @@ body.dark {
   --bg-card: #171d2d;
   --text: #e8ecff;
   --muted: #aeb7d5;
-  --primary: #82a1ff;
+  --primary: #c4a1ff;
   --border: #2a3556;
   --shadow: 0 10px 24px rgba(3, 8, 23, 0.45);
 }
