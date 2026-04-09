@@ -248,21 +248,45 @@ h2 {
 }
 
 body.dark {
-  --bg: #101421;
-  --bg-card: #171d2d;
-  --text: #e8ecff;
-  --muted: #aeb7d5;
-  --primary: #c4a1ff;
-  --border: #2a3556;
-  --shadow: 0 10px 24px rgba(3, 8, 23, 0.45);
+  --bg: #171022;
+  --bg-card: #221836;
+  --text: #f2edff;
+  --muted: #c8b8ea;
+  --primary: #c792ff;
+  --border: #3b2b5d;
+  --shadow: 0 12px 28px rgba(6, 3, 14, 0.5);
 }
 
 body.dark .site-header {
-  background: rgba(16, 20, 33, 0.85);
+  background: rgba(23, 16, 34, 0.92);
+}
+
+body.dark .hero-text,
+body.dark .card {
+  background: linear-gradient(180deg, #221836 0%, #1d142f 100%);
+}
+
+body.dark .nav-links a {
+  color: #d6c4ff;
+}
+
+body.dark .nav-links a:hover {
+  color: var(--primary);
+}
+
+body.dark .theme-toggle {
+  color: #f2edff;
+  background: #2b1f45;
+  border-color: #4a3673;
+}
+
+body.dark .pub-thumb {
+  background: #2b2141;
+  border-color: #4a3673;
 }
 
 body.dark .btn.primary {
-  color: #0d1325;
+  color: #1b1030;
 }
 
 @media (max-width: 900px) {
