@@ -248,26 +248,26 @@ h2 {
 }
 
 body.dark {
-  --bg: #171022;
-  --bg-card: #221836;
-  --text: #f2edff;
-  --muted: #c8b8ea;
+  --bg: #0f0f14;
+  --bg-card: #1a1a24;
+  --text: #ffffff;
+  --muted: #ffffff;
   --primary: #c792ff;
-  --border: #3b2b5d;
-  --shadow: 0 12px 28px rgba(6, 3, 14, 0.5);
+  --border: #343446;
+  --shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
 }
 
 body.dark .site-header {
-  background: rgba(23, 16, 34, 0.92);
+  background: rgba(15, 15, 20, 0.95);
 }
 
 body.dark .hero-text,
 body.dark .card {
-  background: linear-gradient(180deg, #221836 0%, #1d142f 100%);
+  background: #1a1a24;
 }
 
 body.dark .nav-links a {
-  color: #d6c4ff;
+  color: #ffffff;
 }
 
 body.dark .nav-links a:hover {
@@ -275,18 +275,30 @@ body.dark .nav-links a:hover {
 }
 
 body.dark .theme-toggle {
-  color: #f2edff;
-  background: #2b1f45;
-  border-color: #4a3673;
+  color: #ffffff;
+  background: #242432;
+  border-color: #3f3f55;
 }
 
 body.dark .pub-thumb {
-  background: #2b2141;
-  border-color: #4a3673;
+  background: #242432;
+  border-color: #3f3f55;
 }
 
 body.dark .btn.primary {
   color: #1b1030;
+}
+
+body.dark p,
+body.dark li,
+body.dark .subtitle,
+body.dark .reviewer-list li,
+body.dark .pub-item p,
+body.dark .site-footer,
+body.dark .contact-list,
+body.dark .contact-list li,
+body.dark .btn {
+  color: #ffffff;
 }
 
 @media (max-width: 900px) {
