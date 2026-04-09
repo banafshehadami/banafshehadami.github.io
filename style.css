@@ -1,10 +1,10 @@
 :root {
-  --bg: #f8f9fd;
+  --bg: #f6f2ff;
   --bg-card: #ffffff;
-  --text: #1d2330;
-  --muted: #5a6275;
+  --text: #241a3a;
+  --muted: #5c4f79;
   --primary: #6f42c1;
-  --border: #d8dff0;
+  --border: #d6c7f2;
   --shadow: 0 8px 22px rgba(19, 27, 54, 0.08);
 }
 
@@ -34,7 +34,7 @@ body {
   position: sticky;
   top: 0;
   backdrop-filter: blur(7px);
-  background: rgba(248, 249, 253, 0.85);
+  background: rgba(246, 242, 255, 0.9);
   border-bottom: 1px solid var(--border);
   z-index: 10;
 }
@@ -49,7 +49,7 @@ body {
 
 .logo {
   text-decoration: none;
-  color: var(--text);
+  color: var(--primary);
   font-weight: 700;
   margin-right: auto;
 }
@@ -60,7 +60,7 @@ body {
 }
 
 .nav-links a {
-  color: var(--muted);
+  color: #66449d;
   text-decoration: none;
   font-weight: 600;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .hero-text {
-  background: var(--bg-card);
+  background: linear-gradient(180deg, #ffffff 0%, #fbf8ff 100%);
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 1.3rem 1.35rem;
@@ -135,11 +135,20 @@ h2 {
 }
 
 .card {
-  background: var(--bg-card);
+  background: linear-gradient(180deg, #ffffff 0%, #fcf9ff 100%);
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 1rem 1.1rem;
   box-shadow: var(--shadow);
+}
+
+.reviewer-list {
+  margin: 0.2rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.reviewer-list li {
+  color: var(--muted);
 }
 
 .profile-card {
