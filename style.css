@@ -193,6 +193,21 @@ h2 {
   gap: 0.8rem;
 }
 
+.pub-item {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 0.95rem;
+  align-items: start;
+}
+
+.pub-thumb {
+  width: 100%;
+  max-width: 170px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #eef3ff;
+}
+
 .pub-item h3 {
   font-size: 1.02rem;
   margin: 0 0 0.35rem;
@@ -207,6 +222,10 @@ h2 {
   color: var(--primary);
   text-decoration: none;
   font-weight: 600;
+}
+
+.pub-links {
+  margin: 0;
 }
 
 .site-footer {
@@ -236,6 +255,14 @@ body.dark .btn.primary {
 @media (max-width: 900px) {
   .academic-hero {
     grid-template-columns: 1fr;
+  }
+
+  .pub-item {
+    grid-template-columns: 1fr;
+  }
+
+  .pub-thumb {
+    max-width: 240px;
   }
 }
 
