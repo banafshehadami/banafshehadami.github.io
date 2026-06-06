@@ -97,22 +97,6 @@ a:hover {
   border-bottom-color: var(--text);
 }
 
-.theme-toggle {
-  border: none;
-  background: none;
-  color: var(--muted);
-  padding: 0.25rem;
-  font-size: 0.75rem;
-  cursor: pointer;
-  font-family: inherit;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.theme-toggle:hover {
-  color: var(--text);
-}
-
 /* Layout */
 
 .page-layout {
@@ -377,23 +361,6 @@ h2 {
 
 .site-footer p {
   margin: 0;
-}
-
-/* Dark mode */
-
-body.dark {
-  --bg: #0f0f0f;
-  --text: #e4e4e4;
-  --muted: #999999;
-  --link: #6db3ff;
-  --link-hover: #99ccff;
-  --border: #2a2a2a;
-  --header-bg: rgba(15, 15, 15, 0.97);
-}
-
-body.dark .nav-links a.active,
-body.dark .nav-links a:hover {
-  border-bottom-color: var(--text);
 }
 
 /* Responsive */
