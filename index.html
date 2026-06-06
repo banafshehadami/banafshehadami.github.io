@@ -58,175 +58,315 @@
     <nav class="nav container">
       <a class="logo" href="#top">Banafsheh Adami</a>
       <div class="nav-links">
+        <a href="#about">About</a>
         <a href="#news">News</a>
         <a href="#publications">Publications</a>
-        <a href="#talks">Talks</a>
+        <a href="#education">Education</a>
+        <a href="#service">Service</a>
         <a href="#awards">Awards</a>
-        <a href="#contact">Contact</a>
       </div>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">Dark</button>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero container" id="contact">
-      <div class="hero-header">
-        <img
-          class="profile-photo"
-          src="assets/profile-photo.png?v=3"
-          alt="Banafsheh Adami profile photo"
-        />
-        <div class="hero-intro">
-          <h1>Banafsheh Adami</h1>
-          <p class="role">
-            Ph.D. Student in Computer Science · University of South Florida · Tampa, FL
-          </p>
-          <p class="contact-links">
-            <a href="https://github.com/banafshehadami" target="_blank" rel="noreferrer">GitHub</a>
-            <span class="contact-sep" aria-hidden="true">·</span>
-            <a href="https://scholar.google.com/citations?user=qcURpaYAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
-            <span class="contact-sep" aria-hidden="true">·</span>
-            <a href="https://orcid.org/my-orcid?orcid=0009-0004-0193-577X" target="_blank" rel="noreferrer">ORCID</a>
-            <span class="contact-sep" aria-hidden="true">·</span>
-            <a href="https://www.linkedin.com/in/banafsheh-adami-5830b61a9/" target="_blank" rel="noreferrer">LinkedIn</a>
-          </p>
+  <div class="container page-layout" id="top">
+    <aside class="profile-sidebar">
+      <img
+        class="profile-photo"
+        src="assets/profile-photo.png?v=3"
+        alt="Banafsheh Adami profile photo"
+      />
+      <p class="sidebar-name">Banafsheh Adami</p>
+      <p class="sidebar-affiliation">
+        Ph.D. Student<br />
+        Computer Science<br />
+        University of South Florida<br />
+        Tampa, FL, USA
+      </p>
+
+      <div class="sidebar-block">
+        <p class="sidebar-label">Links</p>
+        <ul class="sidebar-links">
+          <li><a href="https://scholar.google.com/citations?user=qcURpaYAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a></li>
+          <li><a href="https://orcid.org/my-orcid?orcid=0009-0004-0193-577X" target="_blank" rel="noreferrer">ORCID</a></li>
+          <li><a href="https://github.com/banafshehadami" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/banafsheh-adami-5830b61a9/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-block">
+        <p class="sidebar-label">Research</p>
+        <div class="interest-tags">
+          <span>Biometrics</span>
+          <span>Anti-spoofing</span>
+          <span>Computer Vision</span>
+          <span>Healthcare AI</span>
+          <span>rPPG / rECG</span>
+          <span>Deep Learning</span>
         </div>
       </div>
-      <div class="hero-body">
-        <p>
-          My research combines machine learning, computer vision, and healthcare AI to build secure and trustworthy intelligent systems.
-          Current interests include biometric anti-spoofing, remote physiological signal modeling (rPPG and rECG),
-          and presentation attack detection under real-world conditions.
+    </aside>
+
+    <main class="content">
+      <section class="section" id="about">
+        <h2>About</h2>
+        <p class="lead">
+          I am a Ph.D. student in Computer Science at the University of South Florida.
+          My research focuses on building secure and trustworthy intelligent systems at the intersection of
+          machine learning, computer vision, and healthcare AI.
         </p>
         <p>
-          I actively contribute to the research community through peer review for conferences (ICASSP, ICIP)
-          and journals (IEEE TIFS, IEEE TBIOM, IEEE Access, Neurocomputing).
+          I develop methods for biometric presentation attack detection, remote physiological signal modeling,
+          and robust anti-spoofing under real-world operating conditions.
         </p>
-      </div>
-    </section>
+      </section>
 
-    <section class="container section" id="news">
-      <h2>News</h2>
-      <ul class="news-list">
-        <li><span class="news-date">Jan 2025</span> — Started Ph.D. in Computer Science at the University of South Florida (USF).</li>
-        <li><span class="news-date">Mar 2025</span> — Completed M.S. in Computer Science at West Virginia University (WVU).</li>
-        <li><span class="news-date">2025</span> — Paper "rECG: A Guided Diffusion Framework for Remote Electrocardiography Reconstruction from Facial Video" accepted at IJCB 2025.</li>
-        <li><span class="news-date">Jun 2025</span> — Paper "GRU-AUNet" accepted to SVCC 2025.</li>
-        <li><span class="news-date">May 2025</span> — Received Best Paper Award at SVCC 2025.</li>
-        <li><span class="news-date">Jan 2025</span> — Work "rPPG-SysDiAGAN" accepted to the ECCV 2024 Workshop.</li>
-        <li><span class="news-date">Oct 2024</span> — Paper "Contactless fingerprint biometric anti-spoofing: An unsupervised deep learning approach" accepted to IJCB 2024.</li>
-        <li><span class="news-date">Oct 2024</span> — "Face Liveness Detection Competition (LivDet-Face) 2024" accepted to IJCB 2024.</li>
-        <li><span class="news-date">Jul 2024</span> — "Advancements in Continuous Glucose Monitoring: Integrating Deep Learning and ECG Signal" accepted to IEEE EMBC 2024.</li>
-        <li><span class="news-date">Oct 2024</span> — Won 2nd Place in LivDet Challenge (Video &amp; Image), IJCB 2024.</li>
-        <li><span class="news-date">Sep 2023</span> — Paper "A universal anti-spoofing approach for contactless fingerprint biometric systems" accepted to IJCB 2023.</li>
-        <li><span class="news-date">Sep 2023</span> — "LivDet 2023 Noncontact Fingerprint" accepted to IJCB 2023.</li>
-        <li><span class="news-date">Sep 2023</span> — Won 2nd Place in LivDet Challenge (Contactless Fingerprint), IJCB 2023.</li>
-      </ul>
-    </section>
+      <section class="section" id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li>
+            <span class="news-date">May 2025</span>
+            <span>Received Best Paper Award at SVCC 2025.</span>
+          </li>
+          <li>
+            <span class="news-date">Jun 2025</span>
+            <span>Paper <em>GRU-AUNet</em> accepted to SVCC 2025.</span>
+          </li>
+          <li>
+            <span class="news-date">2025</span>
+            <span>Paper <em>rECG: A Guided Diffusion Framework for Remote Electrocardiography Reconstruction from Facial Video</em> accepted at IJCB 2025.</span>
+          </li>
+          <li>
+            <span class="news-date">Mar 2025</span>
+            <span>Completed M.S. in Computer Science at West Virginia University (WVU).</span>
+          </li>
+          <li>
+            <span class="news-date">Jan 2025</span>
+            <span>Started Ph.D. in Computer Science at the University of South Florida (USF).</span>
+          </li>
+          <li>
+            <span class="news-date">Jan 2025</span>
+            <span>Work <em>rPPG-SysDiAGAN</em> accepted to the ECCV 2024 Workshop.</span>
+          </li>
+          <li>
+            <span class="news-date">Oct 2024</span>
+            <span>Won 2nd Place in LivDet Challenge (Video &amp; Image), IJCB 2024.</span>
+          </li>
+          <li>
+            <span class="news-date">Oct 2024</span>
+            <span>Paper on contactless fingerprint anti-spoofing accepted to IJCB 2024.</span>
+          </li>
+          <li>
+            <span class="news-date">Jul 2024</span>
+            <span>Paper on continuous glucose monitoring accepted to IEEE EMBC 2024.</span>
+          </li>
+          <li>
+            <span class="news-date">Sep 2023</span>
+            <span>Won 2nd Place in LivDet Challenge (Contactless Fingerprint), IJCB 2023.</span>
+          </li>
+        </ul>
+      </section>
 
-    <section class="container section" id="publications">
-      <h2>Publications</h2>
-      <div class="pub-list">
-        <article class="pub-item">
-          <h3>M.S. Thesis — Deep Learning-Driven Biometric Security</h3>
-          <p class="pub-meta">B. Adami. M.S. in Computer Science, West Virginia University, 2025.</p>
-          <p class="pub-links">
-            <a href="assets/Banafsheh-master-thesis.pdf" target="_blank" rel="noreferrer">PDF</a>
-            ·
-            <a href="https://researchrepository.wvu.edu/etd/12749/" target="_blank" rel="noreferrer">WVU Repository</a>
-          </p>
-        </article>
-        <article class="pub-item">
-          <h3>A universal anti-spoofing approach for contactless fingerprint biometric systems</h3>
-          <p class="pub-meta">B. Adami, S. Tehranipoor, N. Nasrabadi, N. Karimian. IEEE IJCB, 2023.</p>
-          <p class="pub-links">
-            <a href="https://ieeexplore.ieee.org/document/10448939/" target="_blank" rel="noreferrer">IEEE</a>
-            ·
-            <a href="https://arxiv.org/abs/2310.15044" target="_blank" rel="noreferrer">arXiv</a>
-          </p>
-        </article>
-        <article class="pub-item">
-          <h3>Liveness Detection Competition — Noncontact-Based Fingerprint Algorithms and Systems (LivDet 2023 Noncontact Fingerprint)</h3>
-          <p class="pub-meta">S. Purnapatra et al. IEEE IJCB, 2023.</p>
-          <p class="pub-links">
-            <a href="https://arxiv.org/abs/2310.00659" target="_blank" rel="noreferrer">arXiv</a>
-            ·
-            <a href="https://noncontactfingerprint2023.livdet.org/" target="_blank" rel="noreferrer">Competition</a>
-          </p>
-        </article>
-        <article class="pub-item">
-          <h3>Contactless fingerprint biometric anti-spoofing: An unsupervised deep learning approach</h3>
-          <p class="pub-meta">B. Adami, M. R. Hosseinzadehketilateh, N. Karimian. IEEE IJCB, 2024.</p>
-          <p class="pub-links">
-            <a href="https://arxiv.org/abs/2311.04148" target="_blank" rel="noreferrer">arXiv</a>
-            ·
-            <a href="https://scholar.google.com/scholar?q=Contactless+fingerprint+biometric+anti-spoofing%3A+An+unsupervised+deep+learning+approach" target="_blank" rel="noreferrer">Scholar</a>
-          </p>
-        </article>
-        <article class="pub-item">
-          <h3>Face Liveness Detection Competition (LivDet-Face) 2024</h3>
-          <p class="pub-meta">L. Igene et al. IEEE IJCB, 2024.</p>
-          <p class="pub-links">
-            <a href="https://publications.idiap.ch/attachments/papers/2024/Igene_IJCB_2024.pdf" target="_blank" rel="noreferrer">PDF</a>
-            ·
-            <a href="https://face2024.livdet.org/" target="_blank" rel="noreferrer">Competition</a>
-          </p>
-        </article>
-        <article class="pub-item">
-          <h3>rPPG-SysDiAGAN: Systolic-Diastolic Feature Localization in rPPG Using GAN with Multi-Domain Discriminator</h3>
-          <p class="pub-meta">B. Adami, N. Karimian. ECCV 2024 Workshop.</p>
-          <p class="pub-links">
-            <a href="https://link.springer.com/chapter/10.1007/978-3-031-91581-9_14" target="_blank" rel="noreferrer">Springer</a>
-          </p>
-        </article>
-        <article class="pub-item">
-          <h3>GRU-AUNet: A Domain Adaptation Framework for Contactless Fingerprint Presentation Attack Detection</h3>
-          <p class="pub-meta">B. Adami, N. Karimian. Silicon Valley Cybersecurity Conference (SVCC), 2025.</p>
-          <p class="pub-links">
-            <a href="https://scholar.google.com/scholar?q=GRU-AUNet+A+Domain+Adaptation+Framework+for+Contactless+Fingerprint+Presentation+Attack+Detection" target="_blank" rel="noreferrer">Scholar</a>
-          </p>
-        </article>
-        <article class="pub-item">
-          <h3>Advancements in Continuous Glucose Monitoring: Integrating Deep Learning and ECG Signal</h3>
-          <p class="pub-meta">B. Adami, N. Karimian. IEEE EMBC, 2024.</p>
-          <p class="pub-links">
-            <a href="https://arxiv.org/html/2403.07296v1" target="_blank" rel="noreferrer">arXiv</a>
-            ·
-            <a href="https://scholar.google.com/scholar?q=Advancements+in+Continuous+Glucose+Monitoring%3A+Integrating+Deep+Learning+and+ECG+Signal" target="_blank" rel="noreferrer">Scholar</a>
-          </p>
-        </article>
-        <article class="pub-item">
-          <h3>rECG: A Guided Diffusion Framework for Remote Electrocardiography Reconstruction from Facial Video</h3>
-          <p class="pub-meta">B. Adami, N. Karimian, J. Dawson. IEEE IJCB, 2025.</p>
-          <p class="pub-links">
-            <a href="https://scholar.google.com/scholar?q=rECG%3A+A+Guided+Diffusion+Framework+for+Remote+Electrocardiography+Reconstruction+from+Facial+Video" target="_blank" rel="noreferrer">Scholar</a>
-          </p>
-        </article>
-      </div>
-    </section>
+      <section class="section" id="publications">
+        <h2>Publications</h2>
+        <div class="pub-list">
+          <article class="pub-item">
+            <span class="pub-year">2025</span>
+            <div>
+              <p class="pub-citation">
+                B. Adami, N. Karimian, J. Dawson.
+                <em>rECG: A Guided Diffusion Framework for Remote Electrocardiography Reconstruction from Facial Video.</em>
+                <span class="pub-venue">IEEE International Joint Conference on Biometrics (IJCB).</span>
+              </p>
+              <p class="pub-links">
+                <a href="https://scholar.google.com/scholar?q=rECG%3A+A+Guided+Diffusion+Framework+for+Remote+Electrocardiography+Reconstruction+from+Facial+Video" target="_blank" rel="noreferrer">Scholar</a>
+              </p>
+            </div>
+          </article>
 
-    <section class="container section" id="talks">
-      <h2>Talks</h2>
-      <ul class="simple-list">
-        <li>
-          <strong>Deep Learning-Driven Biometric Security</strong> — Advancing liveness detection and anti-spoofing techniques.
-          <a href="assets/SVCC-Banafsheh-Adami.pdf" target="_blank" rel="noreferrer">Slides</a>
-        </li>
-      </ul>
-    </section>
+          <article class="pub-item">
+            <span class="pub-year">2025</span>
+            <div>
+              <p class="pub-citation">
+                B. Adami, N. Karimian.
+                <em>GRU-AUNet: A Domain Adaptation Framework for Contactless Fingerprint Presentation Attack Detection.</em>
+                <span class="pub-venue">Silicon Valley Cybersecurity Conference (SVCC).</span>
+              </p>
+              <p class="pub-links">
+                <a href="https://scholar.google.com/scholar?q=GRU-AUNet+A+Domain+Adaptation+Framework+for+Contactless+Fingerprint+Presentation+Attack+Detection" target="_blank" rel="noreferrer">Scholar</a>
+              </p>
+            </div>
+          </article>
 
-    <section class="container section" id="awards">
-      <h2>Awards</h2>
-      <ul class="simple-list">
-        <li><strong>Best Paper Award</strong> — Silicon Valley Cybersecurity Conference (SVCC), 2025.</li>
-        <li><strong>2nd Place, LivDet Challenge (Video &amp; Image)</strong> — IJCB, 2024.</li>
-        <li><strong>2nd Place, LivDet Challenge (Contactless Fingerprint)</strong> — IJCB, 2023.</li>
-      </ul>
-    </section>
-  </main>
+          <article class="pub-item">
+            <span class="pub-year">2025</span>
+            <div>
+              <p class="pub-citation">
+                B. Adami.
+                <em>Deep Learning-Driven Biometric Security.</em>
+                <span class="pub-venue">M.S. Thesis, West Virginia University.</span>
+              </p>
+              <p class="pub-links">
+                <a href="assets/Banafsheh-master-thesis.pdf" target="_blank" rel="noreferrer">PDF</a>
+                <a href="https://researchrepository.wvu.edu/etd/12749/" target="_blank" rel="noreferrer">WVU Repository</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub-item">
+            <span class="pub-year">2024</span>
+            <div>
+              <p class="pub-citation">
+                B. Adami, N. Karimian.
+                <em>rPPG-SysDiAGAN: Systolic-Diastolic Feature Localization in rPPG Using GAN with Multi-Domain Discriminator.</em>
+                <span class="pub-venue">ECCV Workshop.</span>
+              </p>
+              <p class="pub-links">
+                <a href="https://link.springer.com/chapter/10.1007/978-3-031-91581-9_14" target="_blank" rel="noreferrer">Springer</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub-item">
+            <span class="pub-year">2024</span>
+            <div>
+              <p class="pub-citation">
+                B. Adami, M. R. Hosseinzadehketilateh, N. Karimian.
+                <em>Contactless fingerprint biometric anti-spoofing: An unsupervised deep learning approach.</em>
+                <span class="pub-venue">IEEE International Joint Conference on Biometrics (IJCB).</span>
+              </p>
+              <p class="pub-links">
+                <a href="https://arxiv.org/abs/2311.04148" target="_blank" rel="noreferrer">arXiv</a>
+                <a href="https://scholar.google.com/scholar?q=Contactless+fingerprint+biometric+anti-spoofing%3A+An+unsupervised+deep+learning+approach" target="_blank" rel="noreferrer">Scholar</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub-item">
+            <span class="pub-year">2024</span>
+            <div>
+              <p class="pub-citation">
+                L. Igene et al.
+                <em>Face Liveness Detection Competition (LivDet-Face) 2024.</em>
+                <span class="pub-venue">IEEE International Joint Conference on Biometrics (IJCB).</span>
+              </p>
+              <p class="pub-links">
+                <a href="https://publications.idiap.ch/attachments/papers/2024/Igene_IJCB_2024.pdf" target="_blank" rel="noreferrer">PDF</a>
+                <a href="https://face2024.livdet.org/" target="_blank" rel="noreferrer">Competition</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub-item">
+            <span class="pub-year">2024</span>
+            <div>
+              <p class="pub-citation">
+                B. Adami, N. Karimian.
+                <em>Advancements in Continuous Glucose Monitoring: Integrating Deep Learning and ECG Signal.</em>
+                <span class="pub-venue">IEEE Engineering in Medicine and Biology Conference (EMBC).</span>
+              </p>
+              <p class="pub-links">
+                <a href="https://arxiv.org/html/2403.07296v1" target="_blank" rel="noreferrer">arXiv</a>
+                <a href="https://scholar.google.com/scholar?q=Advancements+in+Continuous+Glucose+Monitoring%3A+Integrating+Deep+Learning+and+ECG+Signal" target="_blank" rel="noreferrer">Scholar</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub-item">
+            <span class="pub-year">2023</span>
+            <div>
+              <p class="pub-citation">
+                B. Adami, S. Tehranipoor, N. Nasrabadi, N. Karimian.
+                <em>A universal anti-spoofing approach for contactless fingerprint biometric systems.</em>
+                <span class="pub-venue">IEEE International Joint Conference on Biometrics (IJCB).</span>
+              </p>
+              <p class="pub-links">
+                <a href="https://ieeexplore.ieee.org/document/10448939/" target="_blank" rel="noreferrer">IEEE</a>
+                <a href="https://arxiv.org/abs/2310.15044" target="_blank" rel="noreferrer">arXiv</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub-item">
+            <span class="pub-year">2023</span>
+            <div>
+              <p class="pub-citation">
+                S. Purnapatra et al.
+                <em>Liveness Detection Competition — Noncontact-Based Fingerprint Algorithms and Systems (LivDet 2023 Noncontact Fingerprint).</em>
+                <span class="pub-venue">IEEE International Joint Conference on Biometrics (IJCB).</span>
+              </p>
+              <p class="pub-links">
+                <a href="https://arxiv.org/abs/2310.00659" target="_blank" rel="noreferrer">arXiv</a>
+                <a href="https://noncontactfingerprint2023.livdet.org/" target="_blank" rel="noreferrer">Competition</a>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <h2>Education</h2>
+        <ul class="entry-list">
+          <li>
+            <div class="entry-title">Ph.D. in Computer Science</div>
+            <div class="entry-meta">University of South Florida · 2025–Present</div>
+          </li>
+          <li>
+            <div class="entry-title">M.S. in Computer Science</div>
+            <div class="entry-meta">West Virginia University · 2025</div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="service">
+        <h2>Academic Service</h2>
+        <ul class="entry-list">
+          <li>
+            <div class="entry-title">Conference Reviewer</div>
+            <div class="entry-meta">ICASSP, ICIP</div>
+          </li>
+          <li>
+            <div class="entry-title">Journal Reviewer</div>
+            <div class="entry-meta">IEEE TIFS, IEEE TBIOM, IEEE Access, Neurocomputing</div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="talks">
+        <h2>Talks</h2>
+        <ul class="entry-list">
+          <li>
+            <div class="entry-title">Deep Learning-Driven Biometric Security</div>
+            <div class="entry-meta">SVCC · Advancing liveness detection and anti-spoofing techniques</div>
+            <a href="assets/SVCC-Banafsheh-Adami.pdf" target="_blank" rel="noreferrer">Slides</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="awards">
+        <h2>Awards</h2>
+        <ul class="entry-list">
+          <li>
+            <div class="entry-title">Best Paper Award</div>
+            <div class="entry-meta">Silicon Valley Cybersecurity Conference (SVCC), 2025</div>
+          </li>
+          <li>
+            <div class="entry-title">2nd Place, LivDet Challenge (Video &amp; Image)</div>
+            <div class="entry-meta">IEEE IJCB, 2024</div>
+          </li>
+          <li>
+            <div class="entry-title">2nd Place, LivDet Challenge (Contactless Fingerprint)</div>
+            <div class="entry-meta">IEEE IJCB, 2023</div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> Banafsheh Adami</p>
+    <div class="container">
+      <p>© <span id="year"></span> Banafsheh Adami</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
