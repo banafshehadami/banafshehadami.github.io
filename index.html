@@ -54,20 +54,6 @@
   </script>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav container">
-      <a class="logo" href="#top">Banafsheh Adami</a>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#news">News</a>
-        <a href="#publications">Publications</a>
-        <a href="#education">Education</a>
-        <a href="#service">Service</a>
-        <a href="#awards">Awards</a>
-      </div>
-    </nav>
-  </header>
-
   <div class="container page-layout" id="top">
     <aside class="profile-sidebar">
       <img
@@ -78,8 +64,8 @@
       <p class="sidebar-name">Banafsheh Adami</p>
       <p class="sidebar-affiliation">
         Ph.D. Candidate<br />
-        Department of Computer Science<br />
-        University of South Florida<br />
+        Computer Science<br />
+        <a href="https://www.usf.edu/engineering/computer-science-and-engineering/" target="_blank" rel="noreferrer">University of South Florida</a><br />
         Tampa, Florida
       </p>
 
@@ -96,16 +82,30 @@
       <div class="sidebar-block">
         <p class="sidebar-label">Interests</p>
         <p class="sidebar-text">
-          Inverse problems, generative models, biometrics, healthcare AI, trustworthy machine learning
+          Inverse problems, generative models, LLMs, biometrics, healthcare AI
         </p>
+      </div>
+
+      <div class="sidebar-block">
+        <p class="sidebar-label">Sections</p>
+        <ul class="sidebar-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#awards">Awards</a></li>
+        </ul>
       </div>
     </aside>
 
     <main class="content">
       <section class="section" id="about">
         <h2>About</h2>
-        <p class="lead">
-          I am a Ph.D. candidate in Computer Science at the University of South Florida.
+        <p>
+          I am a Ph.D. candidate in Computer Science at the
+          <a href="https://www.usf.edu/engineering/computer-science-and-engineering/" target="_blank" rel="noreferrer">University of South Florida</a>.
           My research develops machine learning and computer vision methods for secure biometrics,
           healthcare AI, and trustworthy intelligent systems.
         </p>
@@ -123,34 +123,11 @@
       <section class="section" id="news">
         <h2>News</h2>
         <ul class="news-list">
-          <li>
-            <span class="news-date">2025</span>
-            <em>rECG</em> accepted to IEEE IJCB 2025.
-          </li>
-          <li>
-            <span class="news-date">June 2025</span>
-            <em>GRU-AUNet</em> accepted to SVCC 2025.
-          </li>
-          <li>
-            <span class="news-date">May 2025</span>
-            Received Best Paper Award at SVCC 2025.
-          </li>
-          <li>
-            <span class="news-date">March 2025</span>
-            Completed M.S. in Computer Science at West Virginia University.
-          </li>
-          <li>
-            <span class="news-date">January 2025</span>
-            Started Ph.D. in Computer Science at the University of South Florida.
-          </li>
-          <li>
-            <span class="news-date">October 2024</span>
-            2nd Place, LivDet Challenge (Video &amp; Image), IJCB 2024.
-          </li>
-          <li>
-            <span class="news-date">September 2023</span>
-            2nd Place, LivDet Challenge (Contactless Fingerprint), IJCB 2023.
-          </li>
+          <li><span class="news-date">[2025]</span> <em>rECG</em> accepted to IEEE IJCB 2025.</li>
+          <li><span class="news-date">[Jun 2025]</span> <em>GRU-AUNet</em> accepted to SVCC 2025.</li>
+          <li><span class="news-date">[May 2025]</span> Best Paper Award, SVCC 2025.</li>
+          <li><span class="news-date">[Mar 2025]</span> Completed M.S. in Computer Science, West Virginia University.</li>
+          <li><span class="news-date">[Jan 2025]</span> Started Ph.D. in Computer Science, University of South Florida.</li>
         </ul>
       </section>
 
@@ -333,7 +310,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Banafsheh Adami · University of South Florida</p>
+      <p>© <span id="year"></span> Banafsheh Adami · Last updated June 2025</p>
     </div>
   </footer>
 

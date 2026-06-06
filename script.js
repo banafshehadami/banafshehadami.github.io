@@ -1,12 +1,12 @@
 const year = document.getElementById("year");
-const navLinks = document.querySelectorAll(".nav-links a");
+const navLinks = document.querySelectorAll(".sidebar-nav a");
 const sections = document.querySelectorAll(".section");
 
 function setActiveNav() {
   let current = "";
 
   sections.forEach((section) => {
-    if (window.scrollY >= section.offsetTop - 120) {
+    if (window.scrollY >= section.offsetTop - 80) {
       current = section.getAttribute("id") || "";
     }
   });
