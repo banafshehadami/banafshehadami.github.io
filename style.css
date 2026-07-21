@@ -1,7 +1,7 @@
 :root {
   --accent: #1772d0;
   --accent-dark: #115a9e;
-  --heading: #111111;
+  --heading: #000000;
   --text: #2d3748;
   --text-light: #4a5568;
   --muted: #718096;
@@ -179,12 +179,12 @@ p {
   height: 40px;
   border-radius: 50%;
   font-size: 1.1rem;
-  color: var(--accent);
+  color: #000000;
   transition: background 0.15s ease, color 0.15s ease;
 }
 
 .profile-links a:hover {
-  background: var(--accent);
+  background: #000000;
   color: #fff;
   text-decoration: none;
 }
